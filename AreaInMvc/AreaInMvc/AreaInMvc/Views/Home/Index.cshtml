@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h3>Main Index Page</h3>
+<br />
+<br />
+@Html.ActionLink("Admin view", "Index", "Home", new { area = "Admin" }, null)
+<br />
+<br />
+@Html.ActionLink("Billing view", "Index", "Home", new { area = "Billing" }, null)

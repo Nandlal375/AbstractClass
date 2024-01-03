@@ -1,0 +1,25 @@
+﻿@using TemplateHtmlHelper.Models;
+@model Employee
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @Session["companyName"] 
+        <br /><br />
+        All DisplayName Helper
+        .@Html.Display("asd")
+       
+
+        @Html.DisplayName("Name")
+        <br /><br />
+        @Html.DisplayName("deepak")
+
+    </div>
+</body>
+</html>
